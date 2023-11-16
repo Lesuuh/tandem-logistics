@@ -29,7 +29,7 @@ export const Banner = () => {
 //   const options = {};
 
   return (
-    <div className="h-auto max-w-[1100px] mx-auto py-5 px-5 w-full bg-white flex flex-wrap flex-row justify-center items-center gap-5">
+    <div className="w-full max-w-[1100px] h-auto bg-white py-5 mx-auto">
       <Splide
         id="splide"
         options={{
