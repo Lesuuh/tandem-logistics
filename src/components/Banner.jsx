@@ -26,35 +26,34 @@ export const Banner = () => {
       img: "/images/Logo-5.png",
     },
   ];
-//   const options = {};
+  //   const options = {};
 
   return (
-    <div className="w-full max-w-[1100px] h-auto bg-white py-5 mx-auto">
+    <div className="w-full max-w-[1100px] h-auto px-5 bg-white py-5  flex items-center justify-center mx-auto ">
       <Splide
         id="splide"
         options={{
-            perPage : 3,
+          perPage: 3,
+          gap: "1rem", // Adjust perPage based on the number of slides you want to display at once
           type: "loop",
-          gap: "1rem",
+        //   gap: "1rem",
           autoplay: true,
-          pauseOnHover: false,
+          pauseOnHover: true,
           resetProgress: false,
-        //   height: "15rem",
-          speed: 800,
-          inteval: 100,
+          //   height: "15rem",
+          speed: 100000,
+          interval: 1000, // Fix the typo here
           pagination: false,
           arrows: false,
         }}
       >
-        {bannerData.map((banner) => {
-          return (
-            <SplideSlide key={banner.id}>
-              <div>
-                <img src={banner.img} alt="" className="w-[100px] " />
-              </div>
-            </SplideSlide>
-          );
-        })}
+        {bannerData.map((banner) => (
+          <SplideSlide key={banner.id}>
+            <div>
+              <img src={banner.img} alt="" className="w-[100px]" />
+            </div>
+          </SplideSlide>
+        ))}
       </Splide>
     </div>
   );
