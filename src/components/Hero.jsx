@@ -13,7 +13,7 @@ export const Hero = () => {
           Elevate Your Logistics Experience: Effortless Solutions, Seamless
           Deliveries, Limitless Possibilities!
         </p>
-        <button className="mt-5 px-3 py-2 rounded-xl bg-orange text-white">
+        <button className="mt-5 px-3 py-2 rounded bg-orange text-white">
           Book Now
         </button>
       </div>

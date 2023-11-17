@@ -20,7 +20,7 @@ export const Navbar = ({ menu, toggleMenu }) => {
               <li className="mr-[42px] font-bold">About us</li>
               <li className="mr-[42px] font-bold">Services</li>
               <li className="mr-[42px] font-bold">Contact us</li>
-              <button className="px-3 py-2 rounded-xl bg-orange text-white inline-block">
+              <button className="px-3 py-2 rounded bg-orange text-white inline-block">
                 Book Now
               </button>
             </ul>
@@ -49,7 +49,7 @@ export const Navbar = ({ menu, toggleMenu }) => {
               <li className=" py-3 font-bold">Services</li>
               <li className=" py-3 font-bold">Contact us</li>
 
-              <button className="px-3 py-2 rounded-xl bg-orange text-white">
+              <button className="px-3 py-2 rounded bg-orange text-white">
                 Book Now
               </button>
             </ul>

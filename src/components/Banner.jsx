@@ -33,16 +33,19 @@ export const Banner = () => {
       <Splide
         id="splide"
         options={{
-          perPage: 3,
-          gap: "1rem", // Adjust perPage based on the number of slides you want to display at once
+          perPage: 5,
+          breakpoints: {
+            640 : {
+              perPage: 3
+            }
+          },
+          gap: "1rem", 
           type: "loop",
-        //   gap: "1rem",
           autoplay: true,
           pauseOnHover: true,
           resetProgress: false,
-          //   height: "15rem",
           speed: 100000,
-          interval: 1000, // Fix the typo here
+          interval: 1000, 
           pagination: false,
           arrows: false,
         }}
