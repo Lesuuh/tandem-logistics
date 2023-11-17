@@ -4,6 +4,8 @@ import { Navbar } from "../components/Navbar";
 import { Banner } from "../components/Banner";
 import { OurServices } from "../components/OurServices";
 import { WhyChoseUs } from "../components/WhyChoseUs";
+import { Banner2 } from "../components/Banner2";
+import { Testimonials } from "../components/Testimonials";
 
 export const Home = () => {
   const [menu, setMenu] = useState(false);
@@ -15,6 +17,8 @@ export const Home = () => {
       <Banner/>
       <OurServices/>
       <WhyChoseUs/>
+      <Banner2/>
+      <Testimonials/>
     </div>
   );
 };

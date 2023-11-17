@@ -5,7 +5,9 @@ export default {
     colors: {
       orange: "#A9592C",
       green: "linear-gradient(to right, #FFA07A, #A9592C)",
-      white : "#fff"
+      white : "#fff",
+      gray : "#cfcfcf",
+      greenish : "#0E8019"
     },
     extend: {},
   },

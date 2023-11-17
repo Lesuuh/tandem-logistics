@@ -4,13 +4,13 @@ import { BsCashCoin } from "react-icons/bs";
 
 export const WhyChoseUs = () => {
   return (
-    <div>
+    <div className="max-w-[1100px] mx-auto">
       <h1 className="font-bold text-center text-2xl  my-20 lg:my-[149px] md:text-3xl lg:text-4xl">
         Why Chose Us
       </h1>
       <div className="px-5 sm:grid grid-cols-2">
         <div>
-          <img src={choseusImage} alt="broken_image" className="sm:w-[90%]" />
+          <img src={choseusImage} alt="broken_image" className=" rounded-xl sm:w-[90%]" />
         </div>
         <div className="flex flex-col">
           <div className="flex py-5 flex-row items-start gap-5 justify-start">
