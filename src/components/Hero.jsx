@@ -10,16 +10,17 @@ export const Hero = () => {
           <span className="text-orange ">Fast and Easily</span>
         </h2>
         <p className="mt-5 font-bold">
-          Facilisis gravida neque convallis a cras semper auctor neque
-          vitae.Massa ultricies mi quis hendrerit dolor magna. Vulputate eu
-          scelerisque
+          Elevate Your Logistics Experience: Effortless Solutions, Seamless
+          Deliveries, Limitless Possibilities!
         </p>
-        <button className="mt-5 px-3 py-2 rounded-xl bg-orange text-white">Book Now</button>
+        <button className="mt-5 px-3 py-2 rounded-xl bg-orange text-white">
+          Book Now
+        </button>
       </div>
       <div>
         <img src={heroImage} alt="" />
       </div>
-      <Background/>
+      <Background />
     </div>
   );
 };

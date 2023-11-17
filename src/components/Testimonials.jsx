@@ -68,7 +68,7 @@ export const Testimonials = () => {
           {TestData.map((test) => {
             return (
               <SplideSlide key={test.id}>
-                <div className=" relative rounded-2xl group hover:bg-orange hover:rounded-2xl hover:text-white hover:scale-105 duration-500 ease-in   border-solid border-black shadow p-5 text-center">
+                <div className=" relative rounded-2xl group hover:bg-orange hover:rounded-3xl hover:text-white hover:scale-105 duration-500 ease-in   border-solid border-black shadow p-5 text-center">
                   <p className="text-[15px]  font-medium">{test.text}</p>
                   <h3 className="pt-2">
                     {test.name} - <span>{test.position}</span>
