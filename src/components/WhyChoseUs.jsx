@@ -10,7 +10,7 @@ export const WhyChoseUs = () => {
       </h1>
       <div className="px-5 sm:grid grid-cols-2">
         <div>
-          <img src={choseusImage} alt="broken_image" className=" rounded-xl sm:w-[90%]" />
+          <img src={choseusImage} alt="broken_image" className=" rounded-xl sm:w-[90%] hover:rounded-full duration-1000 ease" />
         </div>
         <div className="flex flex-col">
           <div className="flex py-5 flex-row items-start gap-5 justify-start">
