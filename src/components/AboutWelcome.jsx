@@ -3,9 +3,9 @@ import img from "/images/gabriel-santos-GBVDilE8yvI-unsplash 1.png";
 
 export const AboutWelcome = () => {
   return (
-    <div className="max-w-[1100px] w-full px-5 mx-auto mt-[205px]">
+    <div className="max-w-[1100px] w-full px-5 mx-auto mt-[105px]">
         <Background />
-      <div data-aos="fade-right" className="flex flex-col md:flex-row gap-[100px]">
+      <div  className="flex flex-col md:flex-row gap-[100px]">
         <div className="flex-col md:w-[500px]">
           <h1 className="font-bold text-2xl">Welcome To Tandem</h1>
           <p className="mt-10">
@@ -23,7 +23,7 @@ export const AboutWelcome = () => {
           </p>
         </div>
         <div >
-          <img data-aos="fade-left" src={img} alt="broken-img" />
+          <img  src={img} alt="broken-img" />
         </div>
       </div>
       
