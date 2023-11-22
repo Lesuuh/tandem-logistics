@@ -51,7 +51,7 @@ export const Faq = () => {
           return (
             <div key={question.id} className="flex flex-col">
               <div
-                className="flex shadow h-[60px] w-full justify-between items-center px-2 gap-2 my-2 cursor-pointer
+                className="flex shadow h-[60px] w-full sm:w-[500px] justify-between items-center px-2 gap-2 my-2 cursor-pointer
                  "
                 onClick={() => toggleFaq(index)}
               >

@@ -9,7 +9,9 @@ export default {
       green: "linear-gradient(to right, #FFA07A, #A9592C)",
       white : "#fff",
       gray : "#cfcfcf",
-      greenish : "#0E8019"
+      greenish : "#0E8019",
+      black: "#000",
+      grey : "#f4f4f4"
     },
     extend: {},
   },
