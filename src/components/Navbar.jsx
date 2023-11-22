@@ -16,8 +16,7 @@ export const Navbar = ({ menu, toggleMenu }) => {
   return (
     <div>
       <nav
-        data-aos="fade-down"
-        data-aos-duration="1000"
+      
         className={` bg-${
           menu ? "white" : ""
         } px-5 relative flex justify-between items-center h-[80px] lg:max-w-[1100px] lg:mx-auto z-100000`}
