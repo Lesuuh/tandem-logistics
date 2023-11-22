@@ -47,7 +47,7 @@ export const DiverseServices = () => {
       <h1 className="text-center font-bold text-2xl">
         We offer diverse services
       </h1>
-      <div className="  flex gap-5 flex-col sm:grid sm:gap-5 sm:grid-cols-2 lg:grid-cols-3 justify-between mt-[85px] lg:gap-10">
+      <div className="  flex gap-5 mb-16 flex-col sm:grid sm:gap-5 sm:grid-cols-2 lg:grid-cols-3 justify-between mt-[85px] lg:gap-10">
         {cardData.map((item) => {
           return (
             <DiverseServiceCard

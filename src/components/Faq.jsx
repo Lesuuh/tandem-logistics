@@ -46,7 +46,10 @@ export const Faq = () => {
       <h1 className="font-bold text-center text-2xl my-20 lg:my-[149px] md:text-3xl lg:text-4xl">
         FAQs
       </h1>
-      <div className="px-2 flex flex-col flex-wrap gap-5 md:flex-row">
+      <div
+        data-aos="fade-up"
+        className="px-2 flex flex-col flex-wrap gap-5 md:flex-row"
+      >
         {faq.map((question, index) => {
           return (
             <div key={question.id} className="flex flex-col">

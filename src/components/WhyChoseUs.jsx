@@ -10,9 +10,9 @@ export const WhyChoseUs = () => {
       </h1>
       <div className="px-5 sm:grid grid-cols-2">
         <div>
-          <img src={choseusImage} alt="broken_image" className=" rounded-xl sm:w-[90%] hover:rounded-full duration-1000 ease" />
+          <img data-aos="zoom-in" src={choseusImage} alt="broken_image" className=" rounded-xl sm:w-[90%] hover:rounded-full duration-1000 ease" />
         </div>
-        <div className="flex flex-col">
+        <div data-aos="fade-left" data-aos-duration="1000" className="flex flex-col">
           <div className="flex py-5 flex-row items-start gap-5 justify-start">
             <FaBolt className="text-8xl text-orange -my-[20px]" />
             <div className="flex flex-col">
@@ -25,7 +25,7 @@ export const WhyChoseUs = () => {
             </div>
           </div>
 
-          <div className="flex py-5 flex-row items-start gap-5 justify-start">
+          <div data-aos="fade-right" data-aos-duration="2000" className="flex py-5 flex-row items-start gap-5 justify-start">
             <BsCashCoin className="text-8xl text-orange -my-[20px]" />
             <div className="flex flex-col">
               <h2 className="font-bold text-2xl lg:text-3xl">Cost Saving</h2>
@@ -36,7 +36,7 @@ export const WhyChoseUs = () => {
               </p>
             </div>
           </div>
-          <div className="flex py-5 flex-row items-start gap-5 justify-start">
+          <div data-aos="fade-left" data-aos-duration="3000" className="flex py-5 flex-row items-start gap-5 justify-start">
             <FaShieldAlt className="text-8xl text-orange -my-[20px]" />
             <div className="flex flex-col">
               <h2 className="font-bold text-2xl lg:text-3xl">Save and Secure</h2>

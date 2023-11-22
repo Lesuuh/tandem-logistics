@@ -2,18 +2,29 @@
 import { RiMenu3Line } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Navbar = ({ menu, toggleMenu }) => {
   // const menuClass = menu ? "left-0" : "-left-96";
 
+  useEffect(() => {
+    AOS.refresh();
+  }, []);
+
   return (
     <div>
       <nav
+        data-aos="fade-down"
+        data-aos-duration="1000"
         className={` bg-${
           menu ? "white" : ""
         } px-5 relative flex justify-between items-center h-[80px] lg:max-w-[1100px] lg:mx-auto z-100000`}
       >
-        <div className="text-orange font-bold cursor-pointer">Tandem</div>
+        <Link to="/">
+          <div className="text-orange font-bold cursor-pointer">Tandem</div>
+        </Link>
         {
           <div className="hidden md:flex flex-row items-center">
             <ul className="md:flex flex-row items-center justify-center">

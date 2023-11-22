@@ -5,7 +5,7 @@ export const AboutWelcome = () => {
   return (
     <div className="max-w-[1100px] w-full px-5 mx-auto mt-[205px]">
         <Background />
-      <div className="flex flex-col md:flex-row gap-[100px]">
+      <div data-aos="fade-right" className="flex flex-col md:flex-row gap-[100px]">
         <div className="flex-col md:w-[500px]">
           <h1 className="font-bold text-2xl">Welcome To Tandem</h1>
           <p className="mt-10">
@@ -22,8 +22,8 @@ export const AboutWelcome = () => {
             doloribus sit? Nam nihil fugiat eius culpa rem illo amet deserunt?
           </p>
         </div>
-        <div>
-          <img src={img} alt="broken-img" />
+        <div >
+          <img data-aos="fade-left" src={img} alt="broken-img" />
         </div>
       </div>
       

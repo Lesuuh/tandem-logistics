@@ -5,7 +5,7 @@ import { MdModeOfTravel } from "react-icons/md";
 
 export const AboutBanner = () => {
   return (
-    <div className=" mx-auto flex flex-wrap items-center justify-evenly mt-[83px] bg-gray w-full px-5 ">
+    <div data-aos="fade-up" className=" mx-auto flex flex-wrap items-center justify-evenly mt-[83px] bg-gray w-full px-5 ">
       <div className="flex flex-col items-center gap-2 my-2">
         <BsBuildings className="text-orange text-2xl font-bold" />
         <h2 className="font-bold text-2xl">124+</h2>

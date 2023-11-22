@@ -29,7 +29,7 @@ export const Banner = () => {
   //   const options = {};
 
   return (
-    <div className="w-full max-w-[1100px] h-auto px-5 bg-white py-5  flex items-center justify-center mx-auto ">
+    <div data-aos="fade-up" className="w-full max-w-[1100px] h-auto px-5 bg-white py-5  flex items-center justify-center mx-auto ">
       <Splide
         id="splide"
         options={{

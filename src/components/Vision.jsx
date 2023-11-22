@@ -8,12 +8,13 @@ export const Vision = () => {
       <div className="px-5 sm:grid grid-cols-2">
         <div>
           <img
+            data-aos="fade-right"
             src={visionImg}
             alt="broken_image"
             className=" rounded-xl sm:w-[90%] hover:rounded-full duration-1000 ease"
           />
         </div>
-        <div className="flex flex-col">
+        <div data-aos="fade-left" className="flex flex-col">
           <div className="flex py-5 flex-row items-start gap-5 justify-start">
             <RiMedal2Fill className="text-8xl text-orange -my-[20px]" />
             <div className="flex flex-col">
@@ -26,7 +27,10 @@ export const Vision = () => {
             </div>
           </div>
 
-          <div className="flex py-5 flex-row items-start gap-5 justify-start">
+          <div
+            data-aos="fade-right"
+            className="flex py-5 flex-row items-start gap-5 justify-start"
+          >
             <GoTrophy className="text-8xl text-orange -my-[20px]" />
             <div className="flex flex-col">
               <h2 className="font-bold text-2xl lg:text-3xl">Our Mission</h2>
@@ -37,7 +41,10 @@ export const Vision = () => {
               </p>
             </div>
           </div>
-          <div className="flex py-5 flex-row items-start gap-5 justify-start">
+          <div
+            data-aos="fade-left"
+            className="flex py-5 flex-row items-start gap-5 justify-start"
+          >
             <GoGoal className="text-5xl text-orange -my-[20px]" />
             <div className="flex flex-col">
               <h2 className="font-bold text-2xl lg:text-3xl">Our Goals</h2>

@@ -1,9 +1,10 @@
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { MdCall, MdEmail, MdOutlineLocationOn } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <div className="bg-orange h-auto lg:px-20 px-5 py-5 w-full mx-auto flex flex-col text-white md:flex-row md:justify-between md:items-start">
+    <div  data-aos="fade-up" className="bg-orange h-auto lg:px-20 px-5 py-5 w-full mx-auto flex flex-col text-white md:flex-row md:justify-between md:items-start">
       <div className="md:w-[300px]">
         <h3 className="font-bold">Tandem</h3>
         <p className="my-3 text-[15px] font-medium italic">
@@ -12,17 +13,27 @@ export const Footer = () => {
           helping you move all your belongings fast wherever you wish.
         </p>
         <div className="flex gap-5 my-3">
-          <FaInstagram className="cursor-pointer"/>
-          <FaTwitter className="cursor-pointer"/>
-          <FaFacebook className="cursor-pointer"/>
+          <FaInstagram className="cursor-pointer" />
+          <FaTwitter className="cursor-pointer" />
+          <FaFacebook className="cursor-pointer" />
         </div>
       </div>
       <div className="my-3">
         <h3 className="font-bold">Quick Links</h3>
-        <p className="font-thin text-[15px] my-2 cursor-pointer">Home</p>
-        <p className="font-thin text-[15px] my-2 cursor-pointer">About</p>
-        <p className="font-thin text-[15px] my-2 cursor-pointer">Services</p>
-        <p className="font-thin text-[15px] my-2 cursor-pointer">Contact Us</p>
+        <Link to="/">
+          <p className="font-thin text-[15px] my-2 cursor-pointer">Home</p>
+        </Link>
+        <Link to="/about">
+          <p className="font-thin text-[15px] my-2 cursor-pointer">About</p>
+        </Link>
+        <Link to="/services">
+          <p className="font-thin text-[15px] my-2 cursor-pointer">Services</p>
+        </Link>
+        <Link to="/contact">
+          <p className="font-thin text-[15px] my-2 cursor-pointer">
+            Contact Us
+          </p>
+        </Link>
       </div>
       <div className="my-3">
         <h3 className="font-bold">Services</h3>

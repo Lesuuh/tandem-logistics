@@ -4,7 +4,7 @@ import { Background } from "./Background";
 export const Hero = () => {
   return (
     <div className="h-auto gradient-bg mt-10 px-5 md:px-10 lg:px-0 flex flex-col w-full bg-green lg:max-w-[1100px] lg:mx-auto lg:grid grid-cols-2 items-center">
-      <div className="">
+      <div className="" data-aos="fade-right" data-aos-duration="1000">
         <h2 className="text-4xl lg:text-5xl font-[700]">
           We can move you everywhere.{" "}
           <span className="text-orange ">Fast and Easily</span>
@@ -17,7 +17,7 @@ export const Hero = () => {
           Book Now
         </button>
       </div>
-      <div>
+      <div data-aos="fade-left">
         <img src={heroImage} alt="" />
       </div>
       <Background />

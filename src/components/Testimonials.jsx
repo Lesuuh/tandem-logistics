@@ -44,7 +44,7 @@ export const Testimonials = () => {
       <h1 className="font-bold text-center text-2xl  my-20 lg:my-[149px] md:text-3xl lg:text-4xl">
         Testimonials
       </h1>
-      <div className="px-5">
+      <div  data-aos="fade-up" className="px-5">
         <Splide
           options={{
             perPage: 3,

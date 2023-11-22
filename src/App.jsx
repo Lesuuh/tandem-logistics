@@ -2,13 +2,22 @@ import { Home } from "./pages/Home";
 import { Navbar } from "../src/components/Navbar";
 import { Footer } from "../src/components/Footer";
 import { About } from "./pages/About";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Services } from "./pages/Services";
 import { Contact } from "./pages/Contact";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
 
 function App() {
   const [menu, setMenu] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in milliseconds
+     // Only animate once
+    });
+  }, []);
 
   return (
     <>
